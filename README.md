@@ -93,7 +93,7 @@ public:
 
 Ovdje je potrebno naglasiti da preprocesorske komande ``#ifdef`` (*if defined*) i ``#ifndef`` (*if not defined*) upotrebljavaju provjeravaju je li neka varijabla veće negdje drugdje bila definirana. 
 
-Vaš zadatak je da kreirate ``Sensors.cpp`` dadoteku koja koristi gore navedene funkcije. U nastavku je dan primjer početka ``Sensors.cpp`` datoteke. Vaš zadatak je implementirati deklarirane funkcije ``void readTempHum()`` i ``void readLight()``. Primjetite da ``::`` označava tzv. *scope resolution operator*.
+Vaš zadatak je da kreirate ``Sensors.cpp`` dadoteku (i ``Sensors.h``) koja koristi gore navedene funkcije. U nastavku je dan primjer početka ``Sensors.cpp`` datoteke. Vaš zadatak je implementirati deklarirane funkcije ``void readTempHum()`` i ``void readLight()``. Primjetite da ``::`` označava tzv. *scope resolution operator*.
 
 
 ```arduino
