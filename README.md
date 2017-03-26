@@ -133,3 +133,11 @@ void setup() {
 
 Vaš zadatak je da u state mašini na odgovarajućim mjestima pozovete ``sensor.readTempHum()`` i ``sensor.readLight()`` te testirate rad koda.
 
+
+## Korisni linkovi:
+
+[1] http://www.edn.com/electronics-blogs/embedded-basics/4406821/Function-pointers---Part-3--State-machines  
+[2] http://playground.arduino.cc/Code/Library  
+[3] https://learn.adafruit.com/multi-tasking-the-arduino-part-1/overview  
+[4] http://www.fredosaurus.com/notes-cpp/preprocessor/ifdef.html  
+
