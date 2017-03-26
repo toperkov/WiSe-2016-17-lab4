@@ -34,24 +34,24 @@ void loop() {
   for(;;) {
     switch(state) {
       case READ_SERIAL:
-		
-		//Run state machine code
-	  
-		//Move to the next state
+	//Run state machine code
+
+
+	//Move to the next state
         state = GOTO_SLEEP;
         break;
       case GOTO_SLEEP:
-		
-		//Run state machine code
+	//Run state machine code
 	  
-		//Move to the next state
+	
+	//Move to the next state
         state = READ_SENSORS;
         break;
       case READ_SENSORS:
-		
-		//Run state machine code
-	  
-		//Move to the next state
+	//Run state machine code
+
+
+	//Move to the next state
         state = READ_SERIAL;
         break;
     }
